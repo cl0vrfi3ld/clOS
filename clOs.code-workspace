@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+            "name": "clOS Image Builder",
+            "path": "./image-builder"
+        },
+        {
+            "name": "clOS Installer GUI",
+            "path": "./jade-gui"
+        },
+        {
+            "name": "clOS Installer Backend",
+            "path": "./blend-inst"
+        },
+        {
+            "name": "Archiso Container",
+            "path": "./archiso-container"
+        },
+        {
+            "name":"root",
+            "path": "./"
+        }
+    ],
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-azuretools.vscode-docker"
+        ]
+    }
+}
