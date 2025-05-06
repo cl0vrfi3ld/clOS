@@ -1,0 +1,12 @@
+[submodule "archiso-container"]
+	path = archiso-container
+	url = git@github.com:cl0vrfi3ld/container-archiso-builder.git
+[submodule "blend-inst"]
+	path = blend-inst
+	url = git@github.com:cl0vrfi3ld/blend-inst.git
+[submodule "image-builder"]
+	path = image-builder
+	url = git@github.com:cl0vrfi3ld/clos-image-builder.git
+[submodule "jade-gui"]
+	path = jade-gui
+	url = git@github.com:cl0vrfi3ld/clos-jade-gui.git
