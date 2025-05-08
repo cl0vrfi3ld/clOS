@@ -17,14 +17,15 @@
             "path": "./archiso-container"
         },
         {
-            "name":"root",
+            "name": "root",
             "path": "./"
         }
     ],
     "extensions": {
         "recommendations": [
             "ms-python.python",
-            "ms-azuretools.vscode-docker"
+            "ms-azuretools.vscode-docker",
+            "3timeslazy.vscodium-devpodcontainers"
         ]
     }
 }

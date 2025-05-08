@@ -1,0 +1,26 @@
+{
+    "build": {
+        // Path is relative to the devcontainer.json file.
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        // "ghcr.io/bartventer/arch-devcontainer-features/docker-outside-of-docker:1": {},
+        "ghcr.io/bartventer/arch-devcontainer-features/common-utils:1": {
+            "configureZshAsDefaultShell": true,
+            "additionalPackages": "base-devel podman nodejs python3 python-pipx ninja meson"
+        },
+    },
+    // "postCreateCommand": "git config devcontainers-theme.show-dirty 1"
+    // "remoteEnv": {
+    //     "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+    // },
+    // "workspaceFolder": "${localWorkspaceFolder}",
+    // "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind",
+    "mounts": [
+        {
+            "source": "/var/run/docker.sock",
+            "target": "/var/run/docker.sock",
+            "type": "bind"
+        }
+    ]
+}
