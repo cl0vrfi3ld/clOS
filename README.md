@@ -26,7 +26,7 @@ These are simply the build files for an archiso docker container.
 
 #### blend-inst
 
-This is the OS installer framework/backend from our parent project [blendOS](https://blendos.co/). This part does the heavy lifting while our pretty installer gui keeps you wistfully distracted.
+This is the OS installer framework/backend from [blendOS](https://blendos.co/). This part does the heavy lifting while our pretty installer gui keeps you wistfully distracted.
 
 #### image-builder
 
